@@ -1,0 +1,180 @@
+header
+{
+margin:auto;
+background-image:url("images/bijli.jpeg");   /*head image*/
+height:110px;                                   
+width:1380px;
+}
+
+header h1
+{
+margin:0;
+padding:0;                                                             
+color:rgba(255,255,0,1);              /* head text*/ 
+font-size:500%;
+position:absolute;
+right:300px;
+}
+
+div ul{
+list-style-type:none;               /*  link block start*/
+}
+
+div a{
+text-decoration:none;                    
+}
+
+div li{
+display:inline;}                                          
+
+div li{
+font-size:30px;
+background-color:red;
+padding;0;
+}
+
+div a:hover{
+color:blue;
+}
+
+div a{
+color:white;
+margin:5px;
+padding-left:20px;
+font-size:30px;
+font-family:arial;
+}
+
+div ul{
+background-color:yellow;                        /*link block end*/
+margin:0;
+padding:0;}
+
+.block1 img{
+margin:0;
+padding:0;
+float:right;                                     /*electrician image*/
+position:relative;
+bottom:40px;
+left:40px;
+}
+
+.block2{
+background-color:pink;
+width:300px;
+height:300px;                            /*update block*/
+position:absolute;
+top:400px;
+right:50px;
+overflow:scroll;
+}
+section p,ul{
+color:red;                                 /* main text*/
+font-size:30px;
+}
+.contact{
+font-size:50px;
+font-family:algerian;
+color:teal;                              /*contact page*/
+margin:0;
+}
+table{
+width:1100px;
+height:300px;
+background-color:rgba(256,0,0,.2);
+margin-left:100px;
+}
+table,td,th{
+border:2px solid red;
+}
+caption{
+font-size:50px;
+font-family:algerian;
+color:teal;
+}
+td{
+text-align:center;
+}
+th{
+font-size:30px;
+font-family:algerian;
+}
+fieldset{
+width:800px;
+height:200px;
+background-color:rgba(0,0,256,.1);
+}
+
+label{
+font-size:20px;
+text-align:center;
+}
+legend{
+font-size:30px;
+font-family:algerian;
+}
+.video{
+position:absolute;
+top:200px;
+left:850px;
+}
+.back{
+background-image:url("images/new_image.jpeg");
+width:100%;
+height:100%;
+margin:0;
+padding:0;	
+}
+
+.outer{
+width:400px;
+height:400px;
+background-color:rgb(256,256,256,.9);
+border:3px solid red;
+margin:auto;
+border-radius:30px;
+overflow:hidden;
+padding:10px 20px;
+}
+.inner{
+background-color:rgba(0,0,256,.1);
+width:195px;
+height:50px;
+margin:auto;
+border-radius:30px;
+}
+.login{
+font-size:25px;
+font-family:sans-serif;
+padding:7px 60px;
+margin:0px 0px;
+border-radius:20px;
+cursor:pointer;
+background-color:orange;
+background-size:cover;
+transition:.5s;
+background-repeat:no-repeat;	
+}
+.Email,.password{
+padding:10px 50px;
+background-color:rgba(0,0,256,0.1);
+margin:20px;
+font-size:20px;
+border-radius:30px;
+}
+.Email{
+margin-left:0px;
+}
+.submit_l{
+padding:5px;
+font-family:algerian;
+font-size:20px;
+border-radius:10px;
+float:right;
+cursor:pointer;
+}
+.sign_f{
+position:absolute;
+left:950px;
+top:400px;
+}
