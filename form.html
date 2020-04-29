@@ -1,0 +1,81 @@
+<!doctype html>
+
+<html>
+ <head>
+  <meta charset="utf-8">
+  <link href="sheet.css" type="text/css" rel="stylesheet">
+  <title>form</title>
+ </head>
+ 
+ <body>
+  <header>
+   <h1 style="font-family:algerian">Modern Electricals</h1>
+  </header> 
+  
+  <div>
+   <ul>
+     <li><a href="login.html">User Login<a/></li>
+     <li><a href="table.html">Our Branches<a/></li>
+     <li><a href="index.html">Home<a/></li>
+     <li><a href="services.html">Our services<a/></li>
+     <li><a href="contact.html">Contact Us<a/></li>
+   </ul>
+  </div>
+
+<form method="post" action="submit.php">
+<fieldset>
+<legend>Any Query</legend>
+
+<label for="name">Name:</label>
+<input type="text" name="name" id="name" autofocus >
+<br>
+<br>
+<label for="number">contact number:</label>
+<input type="text" name="number" id="number" required>
+<br><br>
+
+<label for="Query">Type your Query:</label>
+<textarea name="Query" placeholder="write your text" id="Query"></textarea> 
+
+</fieldset>
+<div class="submit"> 
+<input type="submit">
+</div>
+</form>
+<br><br>
+<form method="post" action="gghhs.php">
+<fieldset>
+<legend>Service Form</legend>
+<label for="name2">Name:</label>
+<input type=""text" name="name2" placeholder="name" id="name2" required>
+<br><br>
+
+<label for="number2">contact number:</label>
+<input type=""text" name="number2" placeholder="number" id="number2" required>
+<br><br>
+
+<label for="address">Address:</label>
+<textarea placeholder="Address" id="address" required></textarea>
+<br><br>
+
+<label for="drop">Which service you want:</label>
+<select name="dropdown required" id="drop">
+<option>choose service</option>
+<option value="o1">Electrical circiut fault</option>
+<option value="o2">A/c repair</option>
+<option value="o3">Electrical repair</option>
+</select>
+</fieldset>
+<div class="submit2"> 
+<input type="submit" value="Send">
+</div>
+</form>
+
+<div class="video">
+<video width="500px" height="300px" controls poster="images/image.jpeg">
+<source src="images/video.mp4" type="video/mp4"/>
+Your system not supported</video>
+</div>
+
+</body>
+</html>
